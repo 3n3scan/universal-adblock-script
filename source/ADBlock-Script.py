@@ -154,7 +154,7 @@ def main():
     elif choice == "4":
         exit_script()
     else:
-        print(f"{Fore.RED}> Invalid choice. Please enter '{Fore.CYAN}1{Fore.RED}', '{Fore.CYAN}2{Fore.RED}' or '{Fore.CYAN}3{Fore.RED}' <{Style.RESET_ALL}")
+        print(f"{Fore.RED}> Invalid choice. Please enter '{Fore.CYAN}1{Fore.RED}', '{Fore.CYAN}2{Fore.RED}', '{Fore.CYAN}3{Fore.RED}' '{Fore.CYAN}3{Fore.RED}' <{Style.RESET_ALL}")
         time.sleep(2)
         main()
         
