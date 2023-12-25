@@ -16,6 +16,13 @@ REQUIRMENTS_FILE = "https://pastebin.com/raw/E7EG59SG"
 FILE = "C:\\Windows\\System32\\drivers\\etc\\hosts"
 
 
+def is_admin():
+    try:
+        return ctypes.windll.shell32.IsUserAnAdmin()
+    except:
+        return False
+        
+
 def install_hosts():
     try:
         # Daten von der URL herunterladen
