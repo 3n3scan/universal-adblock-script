@@ -22,5 +22,5 @@
 + Blocks many adult domains
 + Blocks many gambling domains
 
-## Setup/Installation - Server Cloner
+## Instructions
 - Just start the `Universal ADBlock Script v1.0.exe` file and follow the instructions.
